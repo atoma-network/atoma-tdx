@@ -1,0 +1,8 @@
+[package]
+name = "atoma-tdx"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+tdx = { git = "https://github.com/automata-network/tdx-attestation-sdk.git", branch = "main" }
