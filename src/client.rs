@@ -3,8 +3,6 @@ use serde::{Deserialize, Serialize};
 use tdx::device::{Device, DeviceOptions};
 use thiserror::Error;
 
-type Result<T> = std::result::Result<T, TeeAttestationClientError>;
-
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct RuntimeInfo {
     pub tdx_version: String,
